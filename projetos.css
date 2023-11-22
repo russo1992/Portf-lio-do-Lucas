@@ -142,14 +142,6 @@ section.projetos .flex{
 
 @media screen and (max-width: 1020px){
 
-    section.projetos .flex{
-        justify-content:space-around;
-        margin-top: 40px;
-    }
-    section.topo-do-site .flex {
-        gap: 40px;
-    }
-
     .btn-contato{
         text-align: center;
     }
@@ -157,4 +149,14 @@ section.projetos .flex{
     .btn-abrir-menu{
         display: block;
     }
+
+    
+     .img-port{
+        margin-bottom: 60px;
 }
+    
+}
+
+    
+
+
