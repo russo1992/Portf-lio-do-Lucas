@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ body{
+     background-color: #000;
+     height: 100h;
+ }
+ 
+ .interface{
+     max-width: 1280px;
+     margin: 0 auto;
+ }
+ 
+ 
+
+ .flex{
+     display: flex;
+ }
+
+ 
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #5086BF;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #5086BF;
+}
+
+/*estilo do cabeçalho*/
+header{
+    padding: 2px 4%;
+}
+
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: s;
+}
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    
+}
+
+header nav.menu-desktop a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+
+
+
+/*estilo topo do site */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site h1 span{
+    color:#5086BF;
+}
+
+.topo-do-site  p{
+    color: #fff;
+    margin: 40px 0px;
+    padding-bottom: -20px;
+    
+}

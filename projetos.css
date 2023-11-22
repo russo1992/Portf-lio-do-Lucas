@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ body{
+     background-color: #000;
+     height: 100h;
+ }
+ 
+ .interface{
+     max-width: 1280px;
+     margin: 0 auto;
+ }
+ 
+ 
+
+ .flex{
+     display: flex;
+ }
+
+ 
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #5086BF;
+}
+
+/*estilo do cabeçalho*/
+header{
+    padding: 2px 4%;
+}
+
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: s;
+}
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/*estilo topo do site */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site h1 span{
+    color:#5086BF;
+}
+
+.topo-do-site  p{
+    color: #fff;
+    margin: 40px 0px;
+    padding-bottom: -20px;
+}
+
+/*estilo dos projetos*/
+section.projetos{
+    padding: 20px 4%;
+    box-shadow: 0 0 40px 10px #ffffff3d;
+}
+
+section.projetos .flex{
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000008d;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+@media screen and (max-width: 1020px){
+
+    section.projetos .flex{
+        justify-content:space-around;
+        margin-top: 40px;
+    }
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    .btn-contato{
+        text-align: center;
+    }
+
+    .btn-abrir-menu{
+        display: block;
+    }
+}
