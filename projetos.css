@@ -140,6 +140,18 @@ section.projetos .flex{
     opacity: 1;
 }
 
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #5086BF;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    margin-left: 700px;
+}
+
 @media screen and (max-width: 1020px){
 
     .btn-contato{
